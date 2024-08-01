@@ -1,0 +1,92 @@
+@font-face {
+    font-family: figTreeItalic;
+    src: url("../assets/fonts/Figtree-Italic-VariableFont_wght.ttf");
+}
+@font-face{
+    font-family: figTree;
+    src: url("../assets/fonts/Figtree-VariableFont_wght.ttf");
+}
+.card{
+    background-color:  hsl(0, 0%, 100%);
+    width:20%;
+    box-shadow: 5px 5px 1px 1px hsl(0, 0%, 7%);
+    border: black solid 1px;
+    box-sizing: border-box;
+    left:40%;
+    top:20%;  
+}
+.caption h3{
+    padding:8px;
+    border-radius: 10%;
+}
+.zoom-in-fs{
+    font-size: 1.1rem;
+}
+.text-gray{
+    color: hsl(0, 0%, 42%);
+}
+.text-w-500{
+    font-weight: 500;
+}
+.text-dark{
+    color: hsl(0, 0%, 7%);
+}
+.text-w-900{
+    font-weight:900;
+}
+.content-width{
+    width:fit-content;
+}
+.bg-yellow{
+    background-color: hsl(47, 88%, 63%);
+}
+.margin-0{
+    margin:0px;
+}
+.padding-0{
+    padding:0px;
+}
+.fig-tree-family{
+    font-family:figTree ;
+}
+.fig-tree-family-italic{
+    font-family:figTreeItalic ;
+}
+.h-100vh{
+  height:100vh;  
+}
+.w-100{
+    width: 100%;
+}
+.p-1{
+    padding: 1rem;
+}
+.radius-1{
+    border-radius: 1rem; 
+}
+.position-absolute{
+    position: absolute;
+}
+.position-relative{
+    position:relative;
+}
+.clear-fix{
+    clear: both;
+}
+.float{
+    float:left
+}
+.p-left-1{
+    padding-left:1rem;
+}
+@media screen and (max-width:1440px){
+    .card{
+        background-color:  hsl(0, 0%, 100%);
+        width:80%;
+        box-shadow: 5px 5px 1px 1px hsl(0, 0%, 7%);
+        border: black solid 1px;
+        box-sizing: border-box;
+        left:10%;
+        top:5%;  
+    }
+}
